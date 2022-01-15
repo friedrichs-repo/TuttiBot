@@ -132,5 +132,5 @@ if __name__ == "__main__":
 
     search = TuttiQuery(query, region, category)
     search.send_links_by_mail(
-        email_address, "/home/friedrich/Documents/tuttibot_blacklist"
+        email_address, "path_to_blacklist_file"
     )
